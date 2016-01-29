@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{David} % Your first name
+\familyname{Karibe} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{Mountain View}{Nairobi, Kangemi}
+\mobile{+254725247374}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{karfes@uonbi.ac.ke}
+\homepage{karibe.ch}{} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/profile.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"People who are really serious about software should make their own hardware" -Alan Kay}
+%\quote{"Rank does not confer privilege or give power. It imposes responsibility" -Peter F. Drucker}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%---------------------------------------------------------------------------------------
+%   CONTACTS SECTION
+%---------------------------------------------------------------------------------------
+%\section{Contacts}
+%\cvitem{Phone}{0725247374}
+%\cvitem{Email}{karfes@uonbi.ac.ke}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2012--Current}{Masters of Science}{Physics}{The University of Nairobi}{\textit{On-going}}{}  % Arguments not required can be left empty
+\cventry{2005--2009}{Bachelor of Science}{Physics (Electronics)}{The University of Nairobi}{\textit{Second Class Honours, Upper Division}}{Specialized in Applied Microprocessor and Instrumentation}
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2010--Current}{Senior Technologist}{\textsc{University of Nairobi}}{Physics Department}{}{ In charge of undergraduate and research laboratories in the electronics and laser applications thematic section.
+\newline{}\newline{}
+Responsibilities:
+\begin{itemize}
+\item Offering technical support to undergraduate and postgraduate students during
+laboratory sessions and projects
+\item Offering technical support to researchers in the department
+\item Repair, maintenance and development of new laboratory set-ups
+\item Departmental website administrator
+\item Development and presentation of annual Nairobi International Trade Fair projects
+\item Assisting in procurement of new laboratory equipment (computers, research tools, embedded development Kits and assorted electronics components)
+\item Facilitating and attending conferences and workshops for research
+\item Developing and maintaining laboratory and student information management systems for use in the department
+\end{itemize}}
+
+%------------------------------------------------
+
+\subsection{Vocational}
+
+\cventry{2008}{August Holiday Internship}{\textsc{University of Nairobi}}{Physics Department}{Industrial Electronics Unit}{Developed an embedded system using a microcontroller as a serial communication device to a computer and a Java desktop user interface.
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Learned and exercised problem solving techniques; brainstorming, problem definition and problem  disintegration.
+\item Java Programming 
+\item Circuits design, PCB prototyping and hardware debugging
+\item Applied Micro-controller programming in C
+\item Project Documentation
+\end{itemize}}
+
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{2009--2010}{Web Developer}{IMAGINE BRANDS}{Nairobi}{}{Developing dynamic web-interfaces in PHP/MYSQL and implementing blogs using WordPress, as well as general computer software and hardware maintenance}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{\textsc{Python}, PERL, Eagle }
+\cvitem{Intermediate}{\textsc{ASSEMBLY}, \textsc{Java}, Android platform, \textsc{HTML/CSS/JavaScript}, \LaTeX, Linux (Kernel and Userspace system configuration), shell scripting, Git (Version Control and collaboration)}
+\cvitem{Advanced}{C, C++, systemC, PHP and MySQL using LAMP server, Matlab/Octave, Schematic and PCB prototyping}
+
+\section{Embedded Development Skills}
+
+\subsection{Software}
+
+\cvitem{Toolchains}{ARM GNU toolchain: General set-up and configuration: experience using it for firmware development in latest teaching and project work}
+\cvitem{Debug Severs}{OpenOCD, USBDM, Jlink and PE-micro: experience of use for debugging ARM targets including Freescale KL Series and ST Microelectronics' microcontrollers}
+\cvitem{IDEs}{Zilog's ZDS II, Eclipse (CDT) with Freescale's Processor Expert and hardware debug plugins, AVRDude, Mbed platform: Used them for teaching and projects.}
+\cvitem{Simulation}{SystemC and Matlab: Used in latest teaching and research work, MSc project}
+\cvitem{Interfacing}{Research equipment interface to Linux OS including spectrometers and cameras for Matlab platform and web-based UI}
+
+\subsection{Hardware}
+
+\cvitem{Prototyping}{PCB using toner transfer method (double sided boards with rivetted vias)}
+\cvitem{Testing}{PCB signal troubleshooting using oscilloscopes and logic analyzers}
+\cvitem{Debugging}{Serial Wire Debug( SWD with ARM CMSIS-DAP) using Freescale freedom boards, Tower KITs and Zilog ZDS II KIT for the Z80 controllers}
+\cvitem{Wireless}{signal tracing using RF spectrum analyzer (SPECTRAN HF-6060 V4) for antenae prototype testing}
+
+\section{Workshop Skills}
+
+\cvitem{3D Modelling}{SketchUp; precision 3D modelling for 3D printing and  visualization 3D models for electronics components to be used in PCB layout 3D inspection}{ }
+\cvitem{3D printing}{ using Ultimaker2 with Cura slicing tool: For product prototyping; plastic housing for embedded systems boards, optic bench alignment custom and replacement components, new setups for holographic imaging, drone parts for a remote sensing project}
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+\section{Technical Training}
+
+\subsection{Multispectral Imaging and Remote Sensing}
+\cvitem{Remote Sensing}{Using lasers and telescopes in remote sensing, data analysis in Matlab, 2 Weeks at ICIPE-DUDUVILLE CAMPUS, Kenya (2011)}
+\cvitem{Multispectral Imaging Course }{Digital imaging labs, Flourescence imaging labs, MRI imaging, Image Processing in Maltlab, 3 months at Lund University, Sweden in 2012}
+\cvitem{Multifunctional Bench Microscope}{Design of a multispectral bench microscope and Matlab software implementation, 2 weeks at Sally Mbuor, Senegal (2015)}
+
+\subsection{Photovoltaic Systems}
+\cvitem{Photovoltaics Trainer}{PV systems sizing and installation, 2 days at the Physics Department, University of Nairobi}
+\cvitem{Tailor-made Advanced Training in Photovoltaics}{PV labs, Grid-tie systems, Roof installation, Special applications on portable devices, 2 weeks at Delf University, Netherlands}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Fluent (Speaking, reading and writing)}{}
+\cvitemwithcomment{Swahili}{Fluent (Speaking, reading and writing)}{}
+\cvitemwithcomment{Kikuyu}{Native language}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%\cvlistdoubleitem{Book clubs}{}
+\cvlistdoubleitem{Movies}{Music}
+\cvlistdoubleitem{Blogging}{CAD and 3D printing}
+%\cvlistdoubleitem{3D printing}{}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
