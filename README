@@ -2,8 +2,8 @@ This is my cv done in latex using mordernCV template, casual style
 
 Current PDF Render:
 
-<object data="https://github.com/Muriukidavid/cv/cv_David.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/Muriukidavid/cv/cv_David.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Muriukidavid/cv/cv_David.pdf">Download PDF</a>.</p>
+<object data="https://github.com/Muriukidavid/cv/cv_David_embedded_engineer.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/Muriukidavid/cv/cv_David_embedded_engineer.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Muriukidavid/cv/cv_David_embedded_engineer.pdf">Download PDF</a>.</p>
     </embed>
 </object>
